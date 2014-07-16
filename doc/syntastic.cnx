@@ -1,8 +1,8 @@
-*syntastic.txt*   Syntax checking on the fly has never been so pimp.
+*syntastic.txt*   像飞一样屌爆的语法检查工具。
 *syntastic*
 
 
-                    It's a bird! It's a plane! ZOMG It's ... ~
+                    一只鸟！不，一架飞机！呃，是啥玩意...~
 
                    _____             __             __  _      ~
                   / ___/__  ______  / /_____ ______/ /_(_)____ ~
@@ -13,34 +13,34 @@
 
 
 
-                              Reference Manual~
+                                  参考手册~
 
 
 ==============================================================================
-CONTENTS                                                  *syntastic-contents*
+内容                                                      *syntastic-contents*
 
-    1.Intro........................................|syntastic-intro|
-        1.1.Quick start............................|syntastic-quickstart|
-    2.Functionality provided.......................|syntastic-functionality|
-        2.1.The statusline flag....................|syntastic-statusline-flag|
-        2.2.Error signs............................|syntastic-error-signs|
-        2.3.Error window...........................|syntastic-error-window|
-        2.4.Error highlighting.....................|syntastic-highlighting|
+    1.介绍.........................................|syntastic-intro|
+        1.1.快速上手...............................|syntastic-quickstart|
+    2.功能.........................................|syntastic-functionality|
+        2.1.状态栏标记.............................|syntastic-statusline-flag|
+        2.2.错误符号...............................|syntastic-error-signs|
+        2.3.错误窗口...............................|syntastic-error-window|
+        2.4.高亮错误...............................|syntastic-highlighting|
         2.5.Aggregating errors.....................|syntastic-aggregating-errors|
-        2.6.Filtering errors.......................|syntastic-filtering-errors|
-    3.Commands.....................................|syntastic-commands|
-    4.Global Options...............................|syntastic-global-options|
-    5.Checker Options..............................|syntastic-checker-options|
-        5.1.Choosing which checkers to use.........|syntastic-filetype-checkers|
-        5.2.Choosing the executable................|syntastic-config-exec|
-        5.3.Configuring specific checkers..........|syntastic-config-makeprg|
-    6.Notes........................................|syntastic-notes|
-        6.1.Handling of composite filetypes........|syntastic-composite|
-        6.2.Interaction with python-mode...........|syntastic-pymode|
-        6.3.Interaction with the fish shell........|syntastic-fish|
-        6.4.Using syntastic with the fizsh shell...|syntastic-fizsh|
-    7.About........................................|syntastic-about|
-    8.License......................................|syntastic-license|
+        2.6.过滤错误...............................|syntastic-filtering-errors|
+    3.命令.........................................|syntastic-commands|
+    4.全局选项.....................................|syntastic-global-options|
+    5.检查器选项...................................|syntastic-checker-options|
+        5.1.选择使用哪个检查器.....................|syntastic-filetype-checkers|
+        5.2.选择可执行程序.........................|syntastic-config-exec|
+        5.3.配置指定的检查器.......................|syntastic-config-makeprg|
+    6.备注.........................................|syntastic-notes|
+        6.1.复合类型处理...........................|syntastic-composite|
+        6.2.与 python-mode 交互....................|syntastic-pymode|
+        6.3.与 fish shell 交互.....................|syntastic-fish|
+        6.4.使用 syntastic 和 fizsh shell..........|syntastic-fizsh|
+    7.关于.........................................|syntastic-about|
+    8.许可协议.....................................|syntastic-license|
 
 
 ==============================================================================
