@@ -64,22 +64,18 @@ github 上的 wiki 指南：
     https://github.com/scrooloose/syntastic/wiki/Syntax-Checker-Guide
 
 ------------------------------------------------------------------------------
-1.1. Quick start                                        *syntastic-quickstart*
+1.1. 快速上手                                           *syntastic-quickstart*
 
-Syntastic comes preconfigured with a default list of enabled checkers per
-filetype. This list is kept reasonably short to prevent slowing down Vim or
-trying to use conflicting checkers.
+Syntastic 为每种文件类型预配置一个默认的检查器列表，这个列表保持合理的简短，
+以防止 Vim 性能下降，或尝试使用相互冲突的检查器。
 
-You can see the list checkers available for the current filetype with the
-|:SyntasticInfo| command.
+你可以使用 |:SyntasticInfo| 命令来查看当前文件类型下可用的检查器列表。
 
-If you want to override the configured list of checkers for a filetype then
-see |syntastic-checker-options| for details. You can also change the arguments
-passed to a specific checker as well.
+如果你想覆写某种文件类型的检查器列表配置，可以查看 |syntastic-checker-options|
+相关细节，另外，你还可以修改传递给指定检查器的参数。
 
-Use |:SyntasticCheck| to manually check right now. Use |:SyntasticToggleMode|
-to switch between active (checking on writting the buffer) and passive (manual)
-checking.
+使用 |:SyntasticCheck| 立即手动检查。使用 |SyntasticToggleMode| 在主动（检查
+当前正在编辑的缓冲区）和被动（手动）检查之间来回切换。
 
 ==============================================================================
 2. Functionality provided                            *syntastic-functionality*
