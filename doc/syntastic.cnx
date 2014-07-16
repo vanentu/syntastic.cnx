@@ -46,23 +46,20 @@
 ==============================================================================
 1. Intro                                                     *syntastic-intro*
 
-Syntastic is a syntax checking plugin that runs files through external syntax
-checkers. This can be done on demand, or automatically as files are saved and
-opened.  If syntax errors are detected, the user is notified and is happy
-because they didn't have to compile their code or execute their script to find
-them.
+Syntastic 是一个通过运行外部语法检查器来执行语法检查的插件，它可以按需，或自动
+在文件保存或打开时执行。如果检测到语法错误，则会通知到用户，用户也会因为不需要
+编译或执行他们的代码来发现这些错误。
 
-Syntastic comes in two parts: the syntax checker plugins, and the core. The
-syntax checker plugins are defined on a per-filetype basis where each one wraps
-up an external syntax checking program. The core script delegates off to these
-plugins and uses their output to provide the syntastic functionality.
+Syntastic 包含两个部分：语法检查插件，和核心脚本。语法检查插件基于每个文件类型
+进行定义，每一种类型包含一个语法检查程序。核心脚本则代理这些插件和使用插件的
+输出内容来提供句法功能。
 
-Take a look at the wiki for a list of supported filetypes and checkers:
+查看以下 wiki 来了解支持的文件类型和检查器列表：
 
     https://github.com/scrooloose/syntastic/wiki/Syntax-Checkers
 
-Note: This doc only deals with using syntastic. To learn how to write syntax
-checker integrations, see the guide on the github wiki:
+注意：这个文档只涉及如何使用 syntastic。要学习如何编写语法检查器集成，请查看
+github 上的 wiki 指南：
 
     https://github.com/scrooloose/syntastic/wiki/Syntax-Checker-Guide
 
